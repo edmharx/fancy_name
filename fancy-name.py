@@ -18,10 +18,10 @@ loc = input("Where do you live?: ")
 #creating the art
 
 name_art = text2art(name, font="bubblehead")
-job_art = decor("wave2") + text2art(job, font="vaporwave") + decor("wave2", reverse=True)
-age_art = decor("line1") + text2art(age, font="fancy132") + decor("line1", reverse=True)
-sex_art = decor("line1") + text2art(sex, font="fancy132") + decor("line1", reverse=True)
-loc_art = decor("line1") + text2art(loc, font="fancy132") + decor("line1", reverse=True)
+job_art = art("kirby") + decor("wave2") + text2art(job, font="fancy99") + decor("wave2", reverse=True)
+age_art = art("kirby") + decor("wave5") + text2art(age, font="fancy132") + decor("wave5", reverse=True)
+sex_art = art("kirby") + decor("wave5") + text2art(sex, font="fancy132") + decor("wave5", reverse=True)
+loc_art = art("kirby") + decor("wave5") + text2art(loc, font="fancy132") + decor("wave5", reverse=True)
 
 #printing
 print(name_art)
